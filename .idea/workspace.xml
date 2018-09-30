@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc8d340-5951-4505-beeb-2d39784c4a62" name="默认的" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/react16/src/components/CommentBox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react16/src/components/CommentList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react16/src/components/DigitalClokc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react16/src/components/LikesButton.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react16/src/components/NameCard.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/antd-demo/package-lock.json" afterPath="$PROJECT_DIR$/antd-demo/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/antd-demo/package.json" afterPath="$PROJECT_DIR$/antd-demo/package.json" />
-      <change beforePath="$PROJECT_DIR$/antd-demo/src/routes/About/About.js" afterPath="$PROJECT_DIR$/antd-demo/src/routes/About/About.js" />
-      <change beforePath="$PROJECT_DIR$/antd-demo/src/routes/Article/Article.js" afterPath="$PROJECT_DIR$/antd-demo/src/routes/Article/Article.js" />
-      <change beforePath="$PROJECT_DIR$/antd-demo/src/routes/Resource/Resource.js" afterPath="$PROJECT_DIR$/antd-demo/src/routes/Resource/Resource.js" />
+      <change beforePath="$PROJECT_DIR$/react16/src/App.js" afterPath="$PROJECT_DIR$/react16/src/App.js" />
+      <change beforePath="$PROJECT_DIR$/react16/src/components/CommentBox.js" afterPath="$PROJECT_DIR$/react16/src/components/CommentBox.js" />
+      <change beforePath="$PROJECT_DIR$/react16/src/components/CommentList.js" afterPath="$PROJECT_DIR$/react16/src/components/CommentList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,7 +32,7 @@
       <file leaf-file-name="NameCard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react16/src/components/NameCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="950">
               <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
               <folding />
             </state>
@@ -49,7 +42,7 @@
       <file leaf-file-name="LikesButton.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react16/src/components/LikesButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="625">
               <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
@@ -69,8 +62,8 @@
       <file leaf-file-name="CommentBox.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react16/src/components/CommentBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="150">
+              <caret line="27" column="107" lean-forward="false" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -79,11 +72,22 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react16/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="260">
+              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="42" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#252#300#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="react.development.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react16/node_modules/react/cjs/react.development.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="284" column="9" lean-forward="false" selection-start-line="284" selection-start-column="9" selection-end-line="284" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,8 +95,8 @@
       <file leaf-file-name="CommentList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react16/src/components/CommentList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="525">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -134,6 +138,9 @@
       <find>coord</find>
       <find>renderItem</find>
       <find>option</find>
+      <find>addComment</find>
+      <find>onAddComment</find>
+      <find>handleSubmit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,8 +193,8 @@
         <option value="$PROJECT_DIR$/react16/src/components/NameCard.js" />
         <option value="$PROJECT_DIR$/react16/src/components/DigitalClokc.js" />
         <option value="$PROJECT_DIR$/react16/src/components/CommentBox.js" />
-        <option value="$PROJECT_DIR$/react16/src/App.js" />
         <option value="$PROJECT_DIR$/react16/src/components/CommentList.js" />
+        <option value="$PROJECT_DIR$/react16/src/App.js" />
       </list>
     </option>
   </component>
@@ -229,6 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,8 +272,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,15 +285,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\reactDemo\build" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\reactDemo\antd-demo\src\routes\Resource" />
       <recent name="E:\reactDemo\antd-demo\src\routes\Home" />
       <recent name="E:\reactDemo\antd-demo\src\routes\Article" />
       <recent name="E:\reactDemo\antd-demo\src\routes\About" />
       <recent name="E:\reactDemo\antd-demo\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\reactDemo\build" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -332,12 +339,13 @@
       <workItem from="1538010615327" duration="6841000" />
       <workItem from="1538097777496" duration="9748000" />
       <workItem from="1538183867404" duration="610000" />
-      <workItem from="1538186665537" duration="11749000" />
+      <workItem from="1538186665537" duration="12337000" />
+      <workItem from="1538270234211" duration="10229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83814000" />
+    <option name="totallyTimeSpent" value="94631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -378,7 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.html" />
     <entry file="file://$PROJECT_DIR$/src/components/common/layout.css" />
     <entry file="file://$PROJECT_DIR$/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/src/components/common/layout.js" />
@@ -465,9 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -496,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,25 +549,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="267" column="21" lean-forward="false" selection-start-line="267" selection-start-column="21" selection-end-line="267" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react16/src/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react16/src/test.html" />
     <entry file="file://$PROJECT_DIR$/antd-demo/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
           <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,9 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,10 +591,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/react16/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react16/src/components/LikesButton.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="625">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react16/src/components/NameCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -624,44 +623,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react16/src/components/NameCard.js">
+    <entry file="file://$PROJECT_DIR$/react16/node_modules/react/cjs/react.development.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react16/src/components/CommentBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react16/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="263">
+          <caret line="284" column="9" lean-forward="false" selection-start-line="284" selection-start-column="9" selection-end-line="284" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react16/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="260">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="42" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#252#300#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react16/src/components/CommentBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="107" lean-forward="false" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="107" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react16/src/components/CommentList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
